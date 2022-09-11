@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+        <title>Random Number Generator</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Random Number Generator</h1>
+            </div>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label for="select_input_how_many"> Number of Dice to Roll</label>
+                    <input type="number" id="input_how_many">
+                </div>
+                <div>
+                    <label for="select_sides_of_dices">Type of Dice</label>
+                    <select id="type_of_dice" name="type_of_dice">
+                        <option value = 4>D4</option>
+                        <option value = 6>D6</option>
+                        <option value = 8>D8</option>
+                        <option value = 10>D10</option>
+                        <option value = 12>D12</option>
+                        <option value = 20>D20</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" id="start_rolling" name="start_rolling">Start</button>
+                </div>
+                <script src="js/script.js"></script>
+            </form>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
